@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+  background-color: azure;
+}
+.main {
+  height: max-content;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid black;
+}
+ul {
+  list-style-type: none;
+}
+.main > div {
+  border: 2px solid black;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+.top {
+  /* margin: 20px; */
+  /* border-radius: 20px; */
+  /* background-color: rgb(45, 0, 248); */
+  /* border: 2px solid black; */
+  /* height: 100px; */
+  /* width: 1000px; */
+}
+.left {
+  height: 50px;
+}
+/* .right {
+  border: 2px solid black;
+  height: 100px;
+  width: 1000px;
+}
+.center; */
+.last {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.least {
+  height: 150px;
+}
